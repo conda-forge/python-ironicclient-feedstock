@@ -14,14 +14,16 @@ Summary: Python Bindings to the OpenStack Ironic API
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-ironicclient-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-ironicclient-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-ironicclient-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-ironicclient-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-ironicclient-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-ironicclient-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/python-ironicclient-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/python-ironicclient-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/python-ironicclient-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python-ironicclient-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/python-ironicclient-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/python-ironicclient-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-ironicclient/badges/version.svg)](https://anaconda.org/conda-forge/python-ironicclient)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-ironicclient/badges/downloads.svg)](https://anaconda.org/conda-forge/python-ironicclient)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--ironicclient-green.svg)](https://anaconda.org/conda-forge/python-ironicclient) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-ironicclient.svg)](https://anaconda.org/conda-forge/python-ironicclient) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-ironicclient.svg)](https://anaconda.org/conda-forge/python-ironicclient) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-ironicclient.svg)](https://anaconda.org/conda-forge/python-ironicclient) |
 
 Installing python-ironicclient
 ==============================
