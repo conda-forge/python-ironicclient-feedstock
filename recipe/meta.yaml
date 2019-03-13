@@ -1,6 +1,6 @@
 {% set name = "python-ironicclient" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "80d879ff482fc0ee12c96095585ec0533c921e4d01d9b6a8b11938d358cae36a" %}
+{% set version = "2.7.0" %}
+{% set sha256 = "b2b4dff87c39914dd940c3b35a2cde949503fef06272f321d3599b6e283e0fec" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
