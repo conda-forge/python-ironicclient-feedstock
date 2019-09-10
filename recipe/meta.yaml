@@ -1,6 +1,6 @@
 {% set name = "python-ironicclient" %}
-{% set version = "2.7.0" %}
-{% set sha256 = "b2b4dff87c39914dd940c3b35a2cde949503fef06272f321d3599b6e283e0fec" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "96dbfec4e7c292fd530781e479828ebb0f179fc5f57f5cc2acac9c347fef2d75" %}
 
 package:
   name: {{ name|lower }}
