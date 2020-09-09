@@ -1,6 +1,6 @@
 {% set name = "python-ironicclient" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "b5e9661ca52cbe8e7d9918985fb588f0ddc39f24256a2c6076db37303d3f0b05" %}
+{% set version = "4.3.0" %}
+{% set sha256 = "46597b59990e73b0235354032e5a725f0ca8479c94e811cd22e7c6846d5d8f16" %}
 
 package:
   name: {{ name|lower }}
@@ -50,4 +50,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - brainstorm 
+    - brainstorm
