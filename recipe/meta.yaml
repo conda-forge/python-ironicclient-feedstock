@@ -1,5 +1,5 @@
 {% set name = "python-ironicclient" %}
-{% set version = "4.9.0" %}
+{% set version = "4.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-ironicclient-{{ version }}.tar.gz
-  sha256: 99d45e914b2845731ac44fbfc63ae3e1bd52211396748797b588f2adc4b3f341
+  sha256: 8f3ad8ae1fc4df524ea05a458ad2567b58144e881807dbbb985e282902d732fd
 
 build:
   number: 0
@@ -53,4 +53,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - brainstorm 
+    - brainstorm
