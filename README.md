@@ -1,11 +1,11 @@
-About python-ironicclient
-=========================
+About python-ironicclient-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-ironicclient-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.openstack.org/python-ironicclient/latest/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-ironicclient-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python Bindings to the OpenStack Ironic API
 
