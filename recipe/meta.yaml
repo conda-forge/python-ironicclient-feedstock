@@ -1,5 +1,5 @@
 {% set name = "python-ironicclient" %}
-{% set version = "5.8.0" %}
+{% set version = "5.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-ironicclient-{{ version }}.tar.gz
-  sha256: 86fedc2358486628ca8682717ebc69ee102971f117da3526b9d3e29552ec942e
+  sha256: c255de1ed402adacc24a90dd62310d6d5735d166f3995eabe9ea90db7c67bdb6
 
 build:
   number: 0
