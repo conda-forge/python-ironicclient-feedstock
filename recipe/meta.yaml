@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-ironicclient-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/python-ironicclient-{{ version }}.tar.gz
   sha256: 86fedc2358486628ca8682717ebc69ee102971f117da3526b9d3e29552ec942e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pbr >=2.0.0
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - appdirs >=1.3.0
     - cliff !=2.9.0,>=2.8.0
     - dogpile.cache >=0.8.0
@@ -42,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://docs.openstack.org/python-ironicclient/latest/
